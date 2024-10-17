@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # token
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7392123403:AAEdAs63pUZ0Aot9A6CG1VkhRdrxvKxhBuk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6776572844:AAEnthlAAl2_8b1WQ0oDQiav07tzw38_Njg")
 
 
 # api id
@@ -17,16 +17,13 @@ API_HASH = os.environ.get("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002092954715"))
 
 # OWNER ID
-OWNER_ID="6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951"
+OWNER_ID = int(os.environ.get("OWNER_ID", "6331067820"))
 
 # Port
-PORT = os.environ.get("PORT", "7466")
-
-
+PORT = os.environ.get("PORT", "8080")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/?retryWrites=true&w=majority")
-
 DB_NAME = os.environ.get("DATABASE_NAME", "paradoXstr2")
 
 # force sub channel id, if you want enable force sub
@@ -37,21 +34,21 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002161598191"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002151903452"))
 
 #Fsub 3
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002486431295"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002208945965"))
 
 CHANNEL_1_ID = '-1002161598191'
 CHANNEL_2_ID = '-1002151903452'
-CHANNEL_3_ID = '-1002486431295'
+CHANNEL_3_ID = '-1002208945965'
 
 CHANNEL_1_LINK = 'https://t.me/AnimePlaza_STR'
 CHANNEL_2_LINK = 'https://t.me/CinemaStack_Official'
-CHANNEL_3_LINK = 'https://t.me/BlueLock_STR'
+CHANNEL_3_LINK = 'https://t.me/+wQmSxaYpAik2M2U9'
 #######
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Default admin IDs
-admins_list = "6259443940,5053815620, 5297903100,6886483871,6331067820, 7339100806,6693143450,6810396528, 6908541951"
+admins_list = "2008011703, 6331067820, 5053815620, 5769925013, 6808832512, 1270076250, 6693143450, 6259443940, 6551118348, 6886483871, 7394563473, 1997042805"
 
 # Start message
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇᴍʟᴏ {first}\n\nᴛʜɪs ɪs ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sᴛᴏʀᴀɢᴇ ʙᴏᴛ ғᴏʀ sᴛᴇʀɴʀɪᴛᴛᴇʀ.\n\nClick More Info to know more")
@@ -80,9 +77,9 @@ BOT_STATS_TEXT = "<b>ʙᴏᴛ ᴜᴘᴛɪᴍᴇ</b>⥤{uptime}"
 USER_REPLY_TEXT = "You are not authorised! "
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6259443940)
+ADMINS.append(6693143450)
 
-LOG_FILE_NAME = "paradoXstr2.txt"
+LOG_FILE_NAME = "paradoXstr1.txt"
 
 logging.basicConfig(
     level=logging.INFO,
