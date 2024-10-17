@@ -48,7 +48,7 @@ CHANNEL_3_LINK = 'https://t.me/+wQmSxaYpAik2M2U9'
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Default admin IDs
-admins_list = "2008011703, 6331067820, 5053815620, 5769925013, 6808832512, 1270076250, 6693143450, 6259443940, 6551118348, 6886483871, 7394563473, 1997042805"
+admins_list = "1997042805, 2008011703, 6331067820, 5053815620, 5769925013, 6808832512, 1270076250, 6693143450, 6259443940, 6551118348, 6886483871, 7394563473"
 
 # Start message
 START_MSG = os.environ.get("START_MESSAGE", "Hᴇᴍʟᴏ {first}\n\nᴛʜɪs ɪs ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sᴛᴏʀᴀɢᴇ ʙᴏᴛ ғᴏʀ sᴛᴇʀɴʀɪᴛᴛᴇʀ.\n\nClick More Info to know more")
